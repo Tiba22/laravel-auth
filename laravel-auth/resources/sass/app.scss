@@ -1,0 +1,118 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+
+  li {
+
+    list-style: none;
+    margin: 20px 0;
+    cursor: pointer;
+
+    a {
+      display: inline-block;
+      margin: 10px 20px;
+    }
+  }
+
+  a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+}
+
+
+.pilot {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  h1 {
+    display: block;
+    margin: 20px 0;
+  }
+
+  li {
+    list-style: none;
+
+    h2,h4 {
+      margin: 20px 0;
+    }
+  }
+}
+
+.brand {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+
+.create {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+
+    display: block;
+    margin-top: 50px;
+  }
+
+  li {
+
+    margin: 20px 0;
+    list-style: none;
+
+    label {
+      display: block;
+      width: 50px;
+    }
+  }
+}
+
+
+.edit {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  li {
+
+    list-style: none;
+  }
+
+  label {
+    display: inline-block;
+    width: 50px
+  }
+}
